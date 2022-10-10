@@ -3,7 +3,7 @@ import { getOrder } from './index';
 import Order from '../order/order';
 
 describe('mock test', () => {
-  test('should return ', () => {
+  test('should get 2 orders from mock data', () => {
     //given
     const range = 0;
     const size = 2;

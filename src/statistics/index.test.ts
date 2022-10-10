@@ -1,7 +1,7 @@
 import Statistics from './index';
 
 describe('calculate test', () => {
-  test('should return ', () => {
+  test('foodReady = 10s 4s, courierArrive = 5s 3s, should foodWaitAvg is 0, courierWaitAvg is 3', () => {
     //given
     const readyTime = [10, 4, 2];
     const arriveTime = [5, 3];
@@ -15,7 +15,7 @@ describe('calculate test', () => {
     expect(statistics.courierWaitAvgTime).toEqual(3);
   });
 
-  test('should return ', () => {
+  test('foodReady = 1s 4s 2s, courierArrive = 15s 13s 13s, should foodWaitAvg is 11.33, courierWaitAvg is 0', () => {
     //given
     const readyTime = [1, 4, 2];
     const arriveTime = [15, 13, 13, 9];

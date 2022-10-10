@@ -14,7 +14,7 @@ describe('orders test', () => {
     ];
   });
 
-  test('should return ', () => {
+  test('prepTime = 14s, currentTime = 10s, should return preared 2 orders at 24s', () => {
     //given
     orders.updateTime(10);
     orders.add(list);
