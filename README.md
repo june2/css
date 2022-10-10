@@ -14,7 +14,7 @@
 
 
 ### prerequisites
-Before starting this tutorial, you must install:
+Before starting this application, you must install:
 - node.js : v16.14.0
 - npm  : v8.3.1
 - yarn : v1.22.10
